@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "top-network-interfaces-monitor"
+version = "0.1.0"
+description = "A CLI for monitoring the most active network interfaces"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "psutil>=5.9",
+]
+
+[project.scripts]
+monitor = "main:main"
+
+[tool.setuptools]
+py-modules = ["main"]
+
+[tool.setuptools.packages.find]
+include = ["monitor*"]

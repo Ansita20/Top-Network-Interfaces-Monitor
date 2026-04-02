@@ -1,0 +1,13 @@
+README.md
+main.py
+pyproject.toml
+monitor/__init__.py
+monitor/calculator.py
+monitor/collector.py
+monitor/formatter.py
+top_network_interfaces_monitor.egg-info/PKG-INFO
+top_network_interfaces_monitor.egg-info/SOURCES.txt
+top_network_interfaces_monitor.egg-info/dependency_links.txt
+top_network_interfaces_monitor.egg-info/entry_points.txt
+top_network_interfaces_monitor.egg-info/requires.txt
+top_network_interfaces_monitor.egg-info/top_level.txt
