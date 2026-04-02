@@ -47,4 +47,3 @@ monitor --top 5 --interval 2 --json
 Interface   RX(B/s)   TX(B/s)   Total(B/s)
 eth0        12000     8000      20000
 ```
-# Top-Network-Interfaces-Monitor
